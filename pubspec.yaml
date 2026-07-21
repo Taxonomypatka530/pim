@@ -1,0 +1,88 @@
+name: pim
+description: "PIM - peer-to-peer file & text exchange over your own local network"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: ^6.1.2
+
+  # Branding / custom window chrome
+  flutter_svg: ^2.0.17
+  window_manager: ^0.5.0
+
+  # Identity & persistence
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+  # Local database (own DB so workspaces/folders/files persist across restarts)
+  sqlite3: ^2.4.0
+  sqlite3_flutter_libs: ^0.5.24
+
+  # Screen share (Windows capture/input via win32 GDI + JPEG frames)
+  win32: ^5.5.4
+  ffi: ^2.1.3
+  image: ^4.3.0
+
+  # Real device characteristics (CPU / RAM / OS / arch)
+  device_info_plus: ^11.1.0
+  system_info2: ^4.0.0
+  win32_registry: ^2.1.0 # reliable CPU model on Windows (wmic is gone in 24H2+)
+
+  # Hashing for content-addressed cache / dedup + integrity verify
+  crypto: ^3.0.5
+  convert: ^3.1.1
+
+  # File transfer: pick files to send, open received files, share out
+  file_picker: ^8.1.2
+  open_filex: ^4.5.0
+  share_plus: ^10.1.0
+
+  # Desktop drag-and-drop files + clipboard (Ctrl+V) paste
+  desktop_drop: ^0.5.0
+  pasteboard: ^0.4.0
+
+  # Media preview: image zoom + cross-platform video/audio (Windows + Android)
+  photo_view: ^0.15.0
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+
+  # Localization
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/pc.png
+
+flutter_launcher_icons:
+  image_path: "assets/icon/pim_icon.png"
+  android: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#13140E"
+  adaptive_icon_foreground: "assets/icon/pim_icon_fg.png"
+  remove_alpha_ios: false
+  windows:
+    generate: true
+    image_path: "assets/icon/pim_icon.png"
+    icon_size: 256
