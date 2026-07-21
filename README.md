@@ -9,6 +9,7 @@
 Send files, text, notes and tasks between your own phone and PC over the same
 Wi‑Fi. Everything stays on your network.
 
+[![release](https://img.shields.io/github/v/release/deadseti/pim?color=1f1f1f&label=download)](https://github.com/deadseti/pim/releases/latest)
 ![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-1f1f1f)
 ![flutter](https://img.shields.io/badge/built%20with-Flutter-1f1f1f)
 ![license](https://img.shields.io/badge/license-MIT-1f1f1f)
@@ -29,6 +30,16 @@ task board, or just chat.
 I built it because moving a file from my phone to my PC shouldn't require a
 cloud round‑trip, a cable, or a messenger app that recompresses my photos. If
 two devices are on the same network, they should just talk.
+
+## Download
+
+Grab a ready‑to‑run build from the
+[**Releases**](https://github.com/deadseti/pim/releases/latest) page:
+
+- **Windows** — download the `.zip`, unzip it anywhere, run `PIM.exe`.
+- **Android** — download and install the `.apk` (Android 6.0+).
+
+Or build it from source — see [Getting started](#getting-started).
 
 ## Features
 
