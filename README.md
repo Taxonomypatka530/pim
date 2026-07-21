@@ -17,6 +17,10 @@ Wi‑Fi. Everything stays on your network.
 
 </div>
 
+<p align="center">
+  <img src="apps.png" width="860" alt="PIM on Windows — your device, its specs, and your shared workspaces" />
+</p>
+
 ---
 
 ## What it is
